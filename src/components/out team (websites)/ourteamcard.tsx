@@ -1,5 +1,5 @@
 import Image from "next/image";
-import styles from "@/components/out team (about us)/ourteam.module.css";
+import styles from "@/components/out team (websites)/ourteam.module.css";
 export default function OurTeamCard({
   img,
   heading,

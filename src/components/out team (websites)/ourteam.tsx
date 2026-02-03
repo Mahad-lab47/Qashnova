@@ -1,10 +1,10 @@
-import styles from "@/components/out team (about us)/ourteam.module.css";
+import styles from "@/components/out team (websites)/ourteam.module.css";
 import Image from "next/image";
 import Beared from "@/assets/svg/Bill 1.svg";
 import Women from "@/assets/svg/Beverly 1.svg";
 import Girl from "@/assets/svg/Claudia 1.svg";
 import Logo from "@/assets/svg/Avatar 1.svg";
-import OurTeamCard from "@/components/out team (about us)/ourteamcard";
+import OurTeamCard from "@/components/out team (websites)/ourteamcard";
 
 export default function OurTeam() {
   return (

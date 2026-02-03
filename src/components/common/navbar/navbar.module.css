@@ -36,9 +36,10 @@
     font-size: 18px;
     color: rgba(97, 97, 97, 1);
     text-decoration: none;
-    max-width: 82px;
+    max-width: 150px;
     text-align: center;
     width: 100%;
+    font-family: "Poppins", sans-serif;
 
 }
 
@@ -49,6 +50,10 @@
     align-items: center;
     /* max-width: 700px; */
     width: 100%;
+}
+
+.button:hover {
+    color: rgba(60, 101, 255, 1);
 }
 
 @media screen and (min-width: 900px) {
