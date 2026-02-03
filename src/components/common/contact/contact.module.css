@@ -1,0 +1,238 @@
+.contactwidth {
+    max-width: 1440px;
+    width: 100%;
+    padding: 100px 177px;
+    margin: 0 auto;
+}
+
+.contactstyling {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.4%;
+    font-family: "Poppins", sans-serif;
+    color: rgba(60, 101, 255, 1);
+}
+
+.heading {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 68px;
+    letter-spacing: -0.5%;
+}
+
+.fullstop {
+    color: rgba(60, 101, 255, 1);
+}
+
+.headingflex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.paragraph {
+    font-family: "Poppins", sans-serif;
+    color: rgba(97, 97, 97, 1);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+}
+
+.inputfieldstext {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    color: rgba(0, 0, 0, 1);
+
+}
+
+.namefield {
+    max-width: 422px;
+    width: 100%;
+    height: 49px;
+    border-radius: 10px;
+    border: 2px solid rgba(60, 101, 255, 1);
+}
+
+.namefieldflex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.messagefield {
+    max-width: 422px;
+    width: 100%;
+    height: 116px;
+    border-radius: 10px;
+    border: 2px solid rgba(60, 101, 255, 1);
+}
+
+.fieldsflex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    height: 330px;
+}
+
+.contactusflex {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 70px;
+}
+
+.leftsectionflex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    /* height: 660px; */
+}
+
+.submitbutton {
+    max-width: 422px;
+    width: 100%;
+    height: 60px;
+    background-color: rgba(60, 101, 255, 1);
+    color: white;
+    font-family: "Poppins", sans-serif;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    /* margin-top: 40px; */
+}
+
+.contactfont {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 100%;
+    color: rgba(97, 97, 97, 1);
+}
+
+.contactflex {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+
+.conatctitemsflex {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.mainflex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+}
+
+
+
+@media screen and (min-width: 900px) {
+    .mobilesection {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1200px) {
+    .contactwidth {
+        padding: 80px;
+    }
+
+    .mobilesection {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .contactwidth {
+        padding: 40px 16px;
+        margin: 0 auto;
+    }
+
+    .contactstyling {
+        font-weight: 700;
+        font-size: 12px;
+        letter-spacing: 0.4%;
+    }
+
+    .contactusflex {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .heading {
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 18.56px;
+    }
+
+    .mainflex {
+        align-items: center;
+        gap: 20px;
+    }
+
+    .paragraph {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 100%;
+    }
+
+    .headingflex {
+        gap: 20px;
+    }
+
+    .namefield {
+        max-width: 361px;
+        height: 45px;
+        padding: 12px 10px;
+        border: 1px solid rgba(60, 101, 255, 1);
+
+    }
+
+    .messagefield {
+        max-width: 361px;
+        width: 100%;
+        height: 71px;
+        padding: 12px 10px;
+        border: 1px solid rgba(60, 101, 255, 1);
+    }
+
+    .mainsectionimg {
+        max-width: 291px;
+        width: 100%;
+        height: auto;
+    }
+
+    .submitbutton {
+        width: 115px;
+        height: 41px;
+        border-radius: 2.73px;
+    }
+
+    .leftsectionflex {
+        gap: 0px;
+    }
+
+    .conatctitemsflex {
+        flex-wrap: wrap;
+    }
+
+    .flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 5px;
+    }
+}

@@ -1,0 +1,109 @@
+.navbarheight {
+    /* height: 80px; */
+    background-color: rgba(245, 250, 255, 1);
+
+    padding: 20px 100px;
+
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    align-items: center;
+    max-width: 1440px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contactbutton {
+    background-color: rgba(36, 51, 66, 1);
+    max-width: 101px;
+    width: 100%;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    color: rgba(60, 101, 255, 1);
+    padding: 10px 16px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.button {
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(97, 97, 97, 1);
+    text-decoration: none;
+    max-width: 82px;
+    text-align: center;
+    width: 100%;
+
+}
+
+.buttonflex {
+    display: flex;
+    max-width: 653px;
+    justify-content: space-between;
+    align-items: center;
+    /* max-width: 700px; */
+    width: 100%;
+}
+
+@media screen and (min-width: 900px) {
+
+    /* Desktop */
+    .herosectionwidth {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .buttonflex {
+        max-width: 700px;
+        width: 100%;
+    }
+
+    .mobilemenu {
+        display: none;
+    }
+}
+
+/* @media screen and (min-width: 900px) and (max-width: 1200px) {
+    .navbarheight {
+        padding: 40px;
+    }
+} */
+
+@media screen and (max-width: 900px) {
+
+    /* mobile */
+    .buttonflex {
+        display: none;
+    }
+
+    .contactbutton {
+        display: none;
+    }
+
+    .navbarheight {
+        /* justify-content: flex-start; */
+        /* padding: 40px 16px; */
+
+        height: 70px;
+        margin: 0 auto;
+        padding: 0;
+        display: none;
+    }
+
+    .navbar {
+        justify-content: space-between;
+        /* padding: 40px 16px; */
+        align-items: center;
+        height: 70px;
+        /* max-width: 900px;
+        width: 100%; */
+        display: none;
+    }
+
+}

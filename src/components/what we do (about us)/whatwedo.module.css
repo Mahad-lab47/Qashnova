@@ -1,0 +1,107 @@
+.whatwedowidth {
+    max-width: 1440px;
+    width: 100%;
+    padding: 100px;
+    margin: 0 auto;
+
+}
+
+.whatwedostyling {
+    color: rgba(60, 101, 255, 1);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    font-family: "Poppins", sans-serif;
+}
+
+.mainflex {
+    display: flex;
+    justify-content: center;
+    gap: 95px;
+}
+
+.heading {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 68px;
+}
+
+.headingflex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.paragraph {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    color: rgba(97, 97, 97, 1);
+}
+
+.paragraphflex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+}
+
+/* .mainimg {
+    max-width: 596px;
+    width: 100%;
+    height: auto;
+} */
+
+@media screen and (min-width: 900px) and (max-width: 1200px) {
+    .whatwedowidth {
+        padding: 80px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .whatwedowidth {
+        padding: 40px 16px;
+    }
+
+    .mainflex {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .mainimg {
+        max-width: 500x;
+        width: 100%;
+        height: auto;
+    }
+
+    .headingflex {
+        align-items: flex-end;
+    }
+
+    .whatwedostyling {
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 100%;
+    }
+
+    .heading {
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 35px;
+    }
+
+    .paragraphflex {
+        align-items: flex-end;
+    }
+
+    .paragraph {
+        text-align: end;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 100%;
+        letter-spacing: 0.25%;
+    }
+}

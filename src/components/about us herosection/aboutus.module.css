@@ -1,0 +1,160 @@
+.aboutuswidth {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.aboutusstyling {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(60, 101, 255, 1);
+}
+
+.heading {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 68px;
+    z-index: 3;
+    position: relative;
+}
+
+.digitalstyling {
+    width: 210px;
+    height: 80px;
+    /* max-width: 231px;
+        width: 100%; */
+    transform: rotate(-3deg);
+    background-color: rgba(60, 101, 255, 1);
+    color: white;
+    text-align: center;
+    position: absolute;
+    z-index: -1;
+    margin-left: 10px;
+}
+
+.paragraph {
+    color: rgba(97, 97, 97, 1);
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.button {
+    width: 179px;
+    height: 60px;
+    border-radius: 8px;
+    padding: 18px 36px;
+    background-color: rgba(36, 51, 66, 1);
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(60, 101, 255, 1);
+    border: none;
+}
+
+.textflex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* gap: 45px; */
+    padding: 80px 100px;
+}
+
+.mainflex {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 0 auto;
+}
+
+.mainsectionimg {
+    max-width: 700px;
+    width: 100%;
+    height: auto;
+}
+
+.fullstop {
+    color: rgba(60, 101, 255, 1);
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 346px;
+}
+
+@media screen and (max-width: 900px) {
+    .aboutuswidth {
+        padding: 40px 16px;
+    }
+
+    .aboutusstyling {
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 100%;
+    }
+
+    .heading {
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 35px;
+    }
+
+    .digitalstyling {
+        width: 120px;
+        height: 50px;
+    }
+
+    .mainflex {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .flex {
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .textflex {
+        padding: 40px 16px;
+    }
+
+    .paragraph {
+        font-weight: 400;
+        font-size: 16px;
+    }
+
+    .button {
+        width: 134px;
+        height: 37px;
+        border-radius: 2px;
+        padding: 15px 20px;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 7px;
+
+    }
+
+}
+
+@media screen and (min-width: 900px) and (max-width:1200px) {
+    .textflex {
+        padding: 80px;
+        margin: 0 auto;
+    }
+
+    .mainsectionimg {
+        max-width: 400px;
+        width: 100%;
+        height: auto;
+    }
+
+
+}
