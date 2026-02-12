@@ -1,10 +1,10 @@
+"use client";
 import styles from "@/components/common/contact/contact.module.css";
 import Image from "next/image";
 import ContactUs from "@/assets/png/Contact us-amico 1.png";
 import Location from "@/assets/svg/mi_location.svg";
 import Phone from "@/assets/svg/mi_call.svg";
 import Email from "@/assets/svg/fluent_mail-24-regular.svg";
-
 export default function Contact() {
   return (
     <div className={styles.contactwidth}>
@@ -24,7 +24,11 @@ export default function Contact() {
           <div className={styles.fieldsflex}>
             <div className={styles.namefieldflex}>
               <p className={styles.inputfieldstext}>Name</p>
-              <input type="name" className={styles.namefield} />
+              <input
+                type="name"
+                className={styles.namefield}
+                onChange={(e) => console.log(e.target.value)}
+              />
             </div>
             <div className={styles.namefieldflex}>
               <p className={styles.inputfieldstext}>Email</p>

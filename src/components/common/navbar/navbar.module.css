@@ -1,9 +1,10 @@
 .navbarheight {
     /* height: 80px; */
     background-color: rgba(245, 250, 255, 1);
-
+    /* max-width: 1440px;
+    width: 100%; */
     padding: 20px 100px;
-
+    /* height: 100px; */
 
 }
 
@@ -16,12 +17,13 @@
     width: 100%;
     margin-left: auto;
     margin-right: auto;
+
 }
 
 .contactbutton {
     background-color: rgba(36, 51, 66, 1);
-    max-width: 101px;
-    width: 100%;
+    /* max-width: 200px; */
+    width: 100px;
     height: 40px;
     border-radius: 8px;
     border: none;
@@ -29,6 +31,7 @@
     padding: 10px 16px;
     font-size: 12px;
     font-weight: 700;
+    cursor: pointer;
 }
 
 .button {
@@ -54,6 +57,11 @@
 
 .button:hover {
     color: rgba(60, 101, 255, 1);
+}
+
+.contactbutton:hover {
+    background-color: rgba(60, 101, 255, 1);
+    color: white;
 }
 
 @media screen and (min-width: 900px) {

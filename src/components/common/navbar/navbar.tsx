@@ -31,7 +31,9 @@ export default function Navbar() {
           </a>
         </div>
         <div>
-          <button className={styles.contactbutton}>Contact Us</button>
+          <Link href="/contact-us">
+            <button className={styles.contactbutton}>Contact Us</button>
+          </Link>
           <Image src={Menu} alt="menu" className={styles.mobilemenu} />
         </div>
       </div>
